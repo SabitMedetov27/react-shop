@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-shop/static/css/main.59c25f66.css",
+    "main.js": "/react-shop/static/js/main.d1136b3b.js",
+    "static/media/slider_img_2.jpg": "/react-shop/static/media/slider_img_2.d2b62640a3fd93694d28.jpg",
+    "static/media/slider_img_1.jpg": "/react-shop/static/media/slider_img_1.b52758991907ca139bed.jpg",
+    "static/media/shopping_cart.png": "/react-shop/static/media/shopping_cart.9bdd8040b334d31946f4.png",
+    "static/media/correct.png": "/react-shop/static/media/correct.a8d20cd48e2e0d022083.png",
+    "static/media/slick.svg": "/react-shop/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react-shop/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react-shop/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react-shop/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/react-shop/index.html",
+    "static/media/loader.svg": "/react-shop/static/media/loader.02a3e4afc0e85e0555b849b5c2a4f012.svg",
+    "main.59c25f66.css.map": "/react-shop/static/css/main.59c25f66.css.map",
+    "main.d1136b3b.js.map": "/react-shop/static/js/main.d1136b3b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59c25f66.css",
+    "static/js/main.d1136b3b.js"
+  ]
+}
