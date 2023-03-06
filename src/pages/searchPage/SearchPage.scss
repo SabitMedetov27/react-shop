@@ -1,0 +1,27 @@
+@import '../../App.scss';
+.search-conte{
+    background-color: $clr-whitesmoke;
+    
+    .search-blog{
+        padding-top: 48px; 
+        padding-bottom: 48px;
+        .title{
+            border-left: 5px solid $clr-orange ;
+            margin-bottom: 2.8rem;
+            padding: 1.2rem 2rem 1.2rem 4rem;
+            border-bottom: 1px solid $clr-whitesmoke;
+            background-color: $clr-white;
+            position: relative;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            color: $clr-gray;   
+            font-family: $font-family-manrope;
+            letter-spacing: 1.5px;
+        }
+    }
+}
+.search-no{
+    font-weight: 500;
+    color: $clr-dark;
+    padding-top: 48px; 
+    padding-bottom: 48px;
+}

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$clr-black: #000;
+$clr-white: #fff;
+$clr-orange: #f94e30;
+$clr-light-orange: #ff6433;
+$clr-light-gray: #f2f2f2;
+$clr-light: #f4f4f4;
+$clr-whitesmoke: #f5f5f5;
+$clr-dark: #212529;
+$clr-danger: #dc3545;
+$clr-gray: #929292;
+$font-family-manrope: "Manrope", sans-serif;
+$font-family-poppins: "Poppins", sans-serif;
+$transition-ease: all 300ms ease-in-out;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-family: $font-family-poppins;
+  color: $clr-black;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+}
+img {
+  width: 100%;
+  display: block;
+}
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+button {
+  cursor: pointer;
+  outline: 0;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: 1.8rem;
+}
+input,
+textarea,
+select {
+  outline: 0;
+  border: none;
+  resize: none;
+  font-family: inherit;
+  font-size: 1.6rem;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  
+}
+.vert-line{
+  width: 2px;
+  background-color: lighten($clr-orange, 10%);
+  height: 16px;
+  margin: 0 12px;
+}

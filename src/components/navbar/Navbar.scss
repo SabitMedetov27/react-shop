@@ -1,0 +1,89 @@
+@import "../../App.scss";
+.navbar-cont {
+  display: flex;
+  align-items: center;
+  color: $clr-white;
+  margin-top: 10px;
+  font-size: 22px;
+  .navbar-com {
+    display: flex;
+    gap: 2vh;
+    .navbar-link {
+      display: flex;
+      gap: 2vh;
+      .navbar-logo-text {
+        font-weight: 700;
+      }
+    }
+  }
+  .navbar-btn {
+    color: $clr-white;
+    transition: 500ms;
+    &:hover{
+        transform: scale(1.1);
+        
+    }
+  }
+}
+.navbar-search {
+  width: 100%;
+  .navbar-input {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    margin-left: 32px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    .nav-input {
+      font-size: 14px;
+      width: 100%;
+      padding: 0 15px;
+    }
+    ::placeholder {
+      font-size: 13.5px;
+      font-family: $font-family-manrope;
+      letter-spacing: 0.5px;
+    }
+    .fa-solid {
+      font-size: 16px;
+      color: $clr-white;
+      background: $clr-orange;
+      padding: 6px 13px;
+      border-radius: 2px;
+    }
+  }
+}
+.navbar-cart{
+    position: relative;
+    margin-left: 30px;
+    .nav-cart-item-value{
+        position: absolute;
+        top: -5px;
+        right: -12px;
+        background-color: $clr-white;
+        font-size: 14px;
+        font-weight: 500;
+        color: $clr-orange;
+        padding: 0rem 0.5rem;
+        width: 22px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+.nav-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: $font-family-manrope;
+    color: $clr-white;
+    margin-top: 10px;
+    gap: 5vh;
+    
+}

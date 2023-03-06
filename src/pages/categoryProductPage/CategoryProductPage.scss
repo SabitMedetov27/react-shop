@@ -1,0 +1,10 @@
+@import '../../App.scss';
+.cat-products{
+    background-color: $clr-whitesmoke;
+    padding-top: 48px; 
+    padding-bottom: 48px;
+    min-height: 100vh;
+    .cat-span{
+        text-transform: capitalize;
+    }
+}

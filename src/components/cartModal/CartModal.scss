@@ -1,0 +1,119 @@
+@import '../../App.scss';
+.cart-modal{
+    position: absolute;
+    right: -10px;
+    top: calc(100% + 10px);
+    background-color: $clr-white;
+    width: 360px;
+    box-shadow: rgba(100, 100, 111, 0.25) 0px 7px 29px 0px;
+    padding: 1.8rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: $transition-ease;
+    z-index: 99;
+    height: 370px;
+    overflow-y: scroll;
+    
+
+    &::-webkit-scrollbar{
+        width: 5px;
+
+    }
+    &::-webkit-scrollbar-track{
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    &::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        background-color: lighten($clr-light-orange, 5%);
+        outline: 1px solid $clr-light-orange;
+    }
+
+    &::after{
+        position: absolute;
+        content: "";
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 13px solid $clr-white;
+        right: 8px;
+        top: -13px;
+    }
+
+    .cart-modal-title{
+        font-weight: 500;
+        font-size: 15px;
+        font-family: $font-family-manrope;
+        align-items: center ;
+        color: rgba(0, 0, 0, 0.6);
+        margin-bottom: 12px;
+    }
+    .cart-modal-list{
+        display: grid;
+    }
+    .cart-modal-item{
+        display: grid;
+        grid-template-columns: 64px auto 65px;
+        column-gap: 12px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        align-items: center;
+        font-family: $font-family-manrope;
+        padding-top: 8px; 
+        padding-bottom: 8px;
+        .cart-modal-item-title{
+            font-size: 13px;
+            font-family: $font-family-manrope;
+            text-transform: capitalize;
+            color: $clr-dark;
+            
+        }
+        .cart-modal-item-price{
+            font-size: 14px;
+            font-weight: 600;
+            color: $clr-orange;
+        }
+        .cart-modal-item-img{
+            img{
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+    .view-cart-btn{
+        text-transform: capitalize;
+        background-color: $clr-orange;
+        font-size: 15px;
+        font-family: $font-family-manrope;
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px 20px;
+        transition: 500ms;
+        &:hover{
+            color: $clr-orange;
+            background-color: $clr-white;
+            border: 1px solid $clr-orange;
+        }
+    
+    }
+}
+
+.cart-modal-empty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 120px;
+        margin-top: 2rem;
+    }
+
+}
+.cart-modal-empty-text{
+    color: $clr-dark;
+    font-weight: 400;
+}
+
+.cart-modal-close{
+    color: $clr-orange;
+    position: absolute;
+    margin-top: -4rem;
+    margin-left: 28rem;
+}

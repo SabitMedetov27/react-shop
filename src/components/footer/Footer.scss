@@ -1,0 +1,34 @@
+@import '../../App.scss';
+
+.footer{
+    background-color: $clr-orange;
+    .container{
+        padding-top: 24px;
+        padding-bottom: 24px;
+        text-align: center;
+        .footer-cont{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $clr-white;
+            font-weight: 300;
+            font-size: 14px;
+            .footer-blog{
+                text-transform: uppercase;
+            }
+            .vert-line{
+                width: 2px;
+                background-color: lighten($clr-orange, 10%);
+                height: 16px;
+                margin: 0 12px;
+              }
+        }
+    }
+    .footer-span{
+        color: white;
+        font-size: 14px;
+        font-weight: 300;
+        display: block;
+        margin-top: 0.7rem;
+    }
+}
